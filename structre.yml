@@ -1,0 +1,50 @@
+{
+  page: {
+	menu,
+	note,
+	button
+},
+
+note: {
+	title,
+	user: User,
+	dateCreaton,
+	uri,
+	parent: Note,
+	listBlock,
+	buttons
+}
+
+listBlock: {
+	block {
+		type,
+		textBlock,
+		imageBlock,
+		urlBlock,
+		videoBlock
+	}
+}
+
+menu: {
+	list {
+		menuItem
+	}
+}
+
+title: {
+	input,
+	text
+}
+
+textBlock: {
+	editor,
+	uri,
+	image,
+	preview,
+	select,
+	button
+}
+
+user: {
+	login
+}
